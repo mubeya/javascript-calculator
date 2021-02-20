@@ -1,0 +1,45 @@
+.container{
+  text-align: center;
+
+}
+
+h1{
+  color:red;
+  text-align: center;
+  font-size: 50px;
+}
+
+.btn {
+    font-size: 30px;
+    color: white;
+    padding: 5px 20px;
+    border: solid 1px red;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.btn-clear{
+  font-size: 26px;
+  color: white;
+  padding: 5px 82px;
+  border: solid 1px red;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.row{
+  padding: 25px 0 0 0;
+}
+
+input {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: solid 1px red;
+    font-size: 15px;
+    text-align: center;
+}
+
+input:focus::-webkit-input-placeholder
+{
+    color: transparent;
+}

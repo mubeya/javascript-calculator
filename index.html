@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <h1>Calculator</h1>
+  <div class="container">
+    <div class="row first">
+      <input type="text" id="number1" placeholder="Number" class="nbr">
+    </div>
+    <div class="row second">
+      <input type="text" id="number2" placeholder="Number" class="nbr">
+    </div>
+    <div class="row third">
+      <button id="topla"  class="btn">+</button>
+      <button id="cikar"  class="btn">-</button>
+      <button id="carp"   class="btn">x</button>
+      <button id="bol"    class="btn">/</button>
+    </div>
+    <div class="row fourth">
+      <input type="text" id="result" placeholder="Result" class="nbr">
+    </div>
+    <div class="row fifth">
+      <button onclick="clearInput()" id="btn-clear" class="btn-clear">Clear</button>
+    </div>
+  </div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
